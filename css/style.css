@@ -15,10 +15,13 @@ body{
 /*SLIDER*/
 @media screen and (min-width: 600px) {
 .carousel-caption{
-  bottom: 20%;
-  max-width: 80%;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  /* bottom: 20%;
+  max-width: 60%;
+  margin: auto; */
+  margin-right: 30%;
+  margin-bottom: 3%;
+  min-height: 400px;
+  background-color: rgba(19, 83, 117, 0.8);
   color: #fff;
   padding: 5%;
   border-radius: 0 100px 0 0;
@@ -45,4 +48,14 @@ body{
 .blue_button{
   background-color: #135375;
   color: rgb(255,255,255);
+}
+.stats, #contact{
+  background-color: #135375;
+  color: white;
+}
+.stats span{
+  font-size: 4em;
+}
+.stats p{
+  font-size: 1.5em;
 }

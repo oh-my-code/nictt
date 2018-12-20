@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/style-w3.css">
 <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/full-slider.css" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="vendors/themify-icon/themify-icons.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -17,9 +17,10 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><img border="0" alt="НИЦТТ" src="img/logo.png"></a>
+    <a href="#" class="w3-bar-item w3-button w3-wide"><img border="0" alt="НИЦТТ" src="img/logo.png"></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button">Главная</a>
       <a href="#service" class="w3-bar-item w3-button">Услуги</a>
       <a href="#company" class="w3-bar-item w3-button">Компания</a>
       <a href="#projects" class="w3-bar-item w3-button">Проекты</a>
@@ -61,7 +62,7 @@
 </header> -->
 
 
-<header>
+<header id="home">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -107,28 +108,25 @@
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="service">
-  <h3 class="w3-center">НИЦТТ - научно-исследовательский центр технологий телематики</h3>
+  <h1 class="w3-center">НИЦТТ:<br/>Научно-исследовательский центр<br/> технологий телематики</h1>
   <p class="w3-center w3-large">Прогрессивные техноголии транспорта</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="ti-desktop w3-margin-bottom w3-jumbo"></i>
+    <div class="w3-third">
+      <!-- <i class="ti-desktop w3-margin-bottom w3-jumbo"></i> -->
+      <img src="img/Software_icon.png">
       <p class="w3-large">Программное обеспечение</p>
       <p>Поможем реализовать сложные проекты, связанные с разработкой ПО.</p>
     </div>
-    <div class="w3-quarter">
-      <i class="ti-plug w3-margin-bottom w3-jumbo"></i>
+    <div class="w3-third">
+      <!-- <i class="ti-plug w3-margin-bottom w3-jumbo"></i> -->
+      <img src="img/socket_icon.png">
       <p class="w3-large">Схемотехника</p>
       <p>Спроектируем электронные схемы, и напишем программы для микроконтроллеров.</p>
     </div>
-    <div class="w3-quarter">
-      <i class="ti-map-alt w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Дороги</p>
+    <div class="w3-third">
+      <img src="img/CCTV_icon.png">
+      <p class="w3-large">Видеонаблюдение</p>
       <p>Построим точные 3D модели объектов дорожной инфраструктуры методом лазерного сканирования и аэрофотосъемки.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="ti-dashboard w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Весовой контроль</p>
-      <p>Произведем поставку, монтаж и пусконаладку оборудования для контроля весогабаритных характеристик транспорта.</p>
     </div>
   </div>
 </div>
@@ -136,11 +134,11 @@
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-padding-64 stats" id="company">
   <div class="w3-quarter">
-    <span>150 млн</span>
+    <span>130 млн</span>
     <p>годовой оборот</p>
   </div>
   <div class="w3-quarter">
-    <span>10</span>
+    <span>25</span>
     <p>человек в команде</p>
   </div>
   <div class="w3-quarter">
@@ -148,16 +146,31 @@
     <p>года на рынке</p>
   </div>
   <div class="w3-quarter">
-    <span>10+</span>
+    <span>30+</span>
     <p>готовых проектов</p>
   </div>
 </div>
 
 
+
+<div class="container-fluid p-5 w3-light-grey">
+  <div class="row">
+    <div class="col p-5">
+      <h1 class="mb-5">Прогрессивные техноголии транспорта</h1>
+      <p>Мы – профессиональная команда понимающая потребности наших партнеров и сферы деятельности, в которой мы работаем, а также, имеющая внушительный опыт успешной реализации интересных проектов. Вместе с вами мы растём и развиваемся. Вы даёте нам возможность думать и оставаться любопытными.</p>
+    </div>
+    <div class="col p-5">
+      <img src="img/road-01.jpeg" alt="" class="m-1 mr-4">
+      <img src="img/road-02.jpeg" alt="" class="m-1">
+    </div>
+  </div>
+</div>
+
+
 <!-- Promo Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
+<!-- <div class="w3-container w3-light-grey" style="padding:128px 16px">
   <div class="w3-row-padding">
-    <div class="w3-col m6">
+    <div class="w3-col m6 text_image">
       <h3>Прогрессивные техноголии транспорта</h3>
       <p>Мы – профессиональная команда понимающая потребности наших партнеров и сферы деятельности, в которой мы работаем, а также, имеющая внушительный опыт успешной реализации интересных проектов. Вместе с вами мы растём и развиваемся. Вы даёте нам возможность думать и оставаться любопытными.</p>
       <p><a href="#work" class="w3-button blue_button"><i class="fa fa-th"> </i> Наши проекты</a></p>
@@ -166,11 +179,11 @@
       <img class="w3-image w3-round-large" src="img/feature-right.jpg" alt="">
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Projects Section -->
 <div class="w3-container" style="padding:128px 16px" id="projects">
-  <h3 class="w3-center">Проекты</h3>
+  <h1 class="w3-center">Проекты</h1>
   <p class="w3-center w3-large">Исследуем новые горизонты и реализуем необычные проекты</p>
 
 <div class="card-deck">
@@ -204,15 +217,15 @@
 
 
 <!-- Promo Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>Комплексная ителлектуальная транспортная система (КИТС)</h3>
+<div class="container-fluid p-5 w3-light-grey">
+  <div class="row">
+    <div class="col pl-5 pt-5 pr-1">
+      <h2 class="mb-5">Комплексная ителлектуальная транспортная система (КИТС)</h2>
       <p>ООО «НИЦТТ» начинает масштабную работу направленную на разработку комплексной интеллектуальной транспортной системы (КИТС), которая войдет в основу работы всего транспортного комплекса Российской Федерации, и объединит уже имеющиеся разработки и подсистемы в этой области в единое целое.</br>Создание КИТС входит в целевую программу «Поддержание, развитие и использование системы ГЛОНАСС на 2012-2020 годы», утвержденную постановлением Правительства Российской Федерации от 3 марта 2012 года. No189.</p>
-      <p><a href="#work" class="w3-button blue_button"><i class="fa fa-info-circle"> </i> Подробнее о проекте</a></p>
     </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="img/feature-right.jpg" alt="">
+    <div class="col p-5">
+      <img src="img/road-01.jpeg" alt="" class="m-1 mr-4">
+      <img src="img/road-02.jpeg" alt="" class="m-1">
     </div>
   </div>
 </div>
@@ -228,7 +241,7 @@
     <div class="w3-col m4"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@nictt.ru</div>
   </div>
 
-<div>
+<!-- <div>
     <p class="w3-center w3-large email_form">Отправить сообщение:</p>
     <div class="container">
   <form action="action_page.php">
@@ -239,28 +252,20 @@
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
 
   </form>
+</div> -->
+
 </div>
-
-
-  </div>
     <!-- Image of location/map -->
-<div>
+<!-- <div>
     <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
-</div>
+</div> -->
 
 
 

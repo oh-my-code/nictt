@@ -1,6 +1,18 @@
 body{
   font-family: "Montserrat", sans-serif;
 }
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 2.7em;
+  color: #135375;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  color: #135375;
+}
 /* Navbar */
 .w3-bar img{
   width: 100px;
@@ -11,6 +23,8 @@ body{
   margin-right: 30px;
   font-weight: bold;
   color: #135375;
+  font-family: 'Roboto';
+  font-size: 1em;
 }
 /*SLIDER*/
 @media screen and (min-width: 600px) {
@@ -42,8 +56,15 @@ body{
   font-size: 3em;
   color: #135375;
 }
+.w3-third img{
+  width: 70px;
+  margin-bottom: 20px;
+}
 .w3-quarter .w3-large{
   margin-top: 30px;
+}
+.text_image {
+  padding: 50px;
 }
 .blue_button{
   background-color: #135375;
